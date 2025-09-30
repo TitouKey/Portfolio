@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -12,24 +13,40 @@
         <ul>
             <li><a href="#">Acceuil</a></li>
             <li><a href="#">Projets</a></li>
-            <li><a href="#">Media</a></li>
             <li><a href="#">CV</a></li>
+            <li><a href="#">Media</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
     </nav>
 
-    <div class="Introduction">
-        Je m'appelle Titouan et je suis un Ingénieur basé en Belgique.
-        <button>See my work</button>
-    </div>
+    <section id="accueil">
+        <div class="Introduction">
+            Je m'appelle Titouan et je suis étudiant en Sciences Informatique basé en Belgique.
+            <button>See my work</button>
+        </div>
+    </section>
 
-    <div class="Bento">
-        Bento renvoyant vers les différentes pages du site
-    </div>
+    <section id="bento">
+        <div class="bento-container">
+            <div class="bento-item projets">
+                <h2>Projets</h2>
+            </div>
+            <div class="bento-item cv">
+                <h2>CV</h2>
+            </div>
+            <div class="bento-item media">
+                <h2>Media</h2>
+            </div>
+            <div class="bento-item contact">
+                <h2>Contact</h2>
+            </div>
+        </div>
 
-    <footer>
-        Copyright 2025
-    </footer>
+        <footer>
+            <p>© 2025 - Titouan</p>
+        </footer>
+    </section>
+
 </body>
 
 </html>
